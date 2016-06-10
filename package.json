@@ -1,0 +1,19 @@
+{
+  "name": "project-alpha",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.9.3",
+    "express": "~4.10.3",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^5.2.1",
+    "jsonwebtoken": "^1.2.0",
+    "mongodb": "^2.1.17",
+    "mongoose": "~3.8.19",
+    "morgan": "~1.5.0",
+    "nodemon": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-google-oauth2": "^0.1.6",
+    "request": "^2.69.0"
+  }
+}
