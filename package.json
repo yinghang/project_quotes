@@ -1,5 +1,5 @@
 {
-  "name": "project-alpha",
+  "name": "project-quotes",
   "main": "server.js",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
