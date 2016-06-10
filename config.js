@@ -1,5 +1,5 @@
 module.exports = {
-	'port': process.env.PORT || 8080,
+	'port': process.env.PORT || 8081,
 	'database': 'mongodb://localhost:27017/project_alpha',
 	'eventbrite': 'mongodb://localhost:27017/eventbrite_database',
 	'secret': 'projectalphaisamazing',

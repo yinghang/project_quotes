@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Event Search</title>
+	<title>Horizons Quotes API</title>
 
 	<!-- FOR ANGULAR ROUTING -->
 	<base href="/">
@@ -41,16 +41,8 @@
 	<!--<div class="navbar navbar-inverse" <ng-if="main.loggedIn">-->
 	<div class="container">
 		<div class="navbar-header">
-			<a href="/" class="navbar-brand"><span class="glyphicon glyphicon-calendar"></span> Time Slot</a>
+			<a href="/" class="navbar-brand"><span class="glyphicon glyphicon-list"></span> Horizons Quotes API</a>
 		</div>	
-		<ul class="nav navbar-nav navbar-right">
-			<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
-			<li ng-if="!main.loggedIn"><a href="/signup">Sign Up</a></li>
-			<li ng-if="main.loggedIn" class="navbar-text">Hello {{ main.user.name }}!</li>
-			<li ng-if="main.loggedIn"><a href="/preferences/{{ main.user._id }}">Preferences</a></li>
-			<li ng-if="main.loggedIn"><a href="#" ng-click="main.doLogout()">Logout</a></li>
-
-		</ul>
 	</div>
 	</div>
 </header>
@@ -62,7 +54,7 @@
 <br><br>
 <footer>
 	<hr style="margin: 0px 0"/><br>
-	<font style="margin: 0px 50px">&copy; Time Slot &emsp;|&emsp; Maxim Bazik, Ying Hang Eng, Nadav Hazan, Christine Low</font><br>
+	<font style="margin: 0px 50px">&copy; Horizons Quote App &emsp;|&emsp; Ying Hang Eng</font><br>
 </footer>
 
 </body>
